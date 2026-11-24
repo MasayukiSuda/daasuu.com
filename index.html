@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>daasuu</title>
+<meta name="description" content="daasuu is an independent mobile app developer based in Japan. 日本の個人アプリ開発者 daasuu の公式サイトです。">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1f2328;
+    --muted: #59636e;
+    --line: #d1d9e0;
+    --accent: #0b6bcb;
+    --card: #f6f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117;
+      --fg: #e6edf3;
+      --muted: #9198a1;
+      --line: #30363d;
+      --accent: #4493f8;
+      --card: #151b23;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Segoe UI", sans-serif;
+    line-height: 1.7;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  header h1 { font-size: 2.4rem; margin: 0; letter-spacing: 0.02em; }
+  header p { margin: 4px 0 0; color: var(--muted); }
+  section { margin-top: 48px; }
+  h2 { font-size: 1.2rem; border-bottom: 1px solid var(--line); padding-bottom: 6px; margin: 0 0 16px; }
+  h3 { font-size: 0.95rem; color: var(--muted); margin: 24px 0 8px; font-weight: 600; }
+  ul.apps { list-style: none; margin: 0; padding: 0; }
+  ul.apps li {
+    display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px;
+    padding: 10px 12px; border-radius: 8px; background: var(--card); margin-bottom: 6px;
+  }
+  ul.apps .name { font-weight: 500; }
+  ul.apps .links { font-size: 0.85rem; white-space: nowrap; }
+  ul.apps .links a + a { margin-left: 12px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 8px 24px; margin: 0; }
+  dt { color: var(--muted); }
+  dd { margin: 0; }
+  footer { margin-top: 64px; color: var(--muted); font-size: 0.85rem; }
+  @media (max-width: 520px) {
+    dl { grid-template-columns: 1fr; gap: 2px; }
+    dd { margin-bottom: 10px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>daasuu</h1>
+    <p>Independent mobile app developer based in Japan.<br>日本の個人アプリ開発者です。英語学習・ことばのパズル・風水のツールなどのアプリを開発・配信しています。</p>
+  </header>
+
+  <section>
+    <h2>Apps / アプリ</h2>
+
+    <h3>風水・方位 / Feng shui</h3>
+    <ul class="apps">
+      <li><span class="name">あちこち吉方位マップ - 九星気学・風水の方位線</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.achikochikichihoui">Google Play</a><a href="https://masayukisuda.github.io/achikochi/privacy-policy.html">Privacy</a></span></li>
+    </ul>
+
+    <h3>英検® 英単語</h3>
+    <ul class="apps">
+      <li><span class="name">英検®1級 の英単語5000</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.eiken1">Google Play</a><a href="https://masayukisuda.github.io/eiken1/">Support</a></span></li>
+      <li><span class="name">英検®準1級 の英単語3500</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.eiken1pre">Google Play</a><a href="https://masayukisuda.github.io/eiken1pre/">Support</a></span></li>
+      <li><span class="name">英検®2級 の英単語2600</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.eiken2">Google Play</a><a href="https://masayukisuda.github.io/eiken2/">Support</a></span></li>
+      <li><span class="name">英検®準2級 の英単語2600</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.eiken2pre">Google Play</a><a href="https://masayukisuda.github.io/eiken2pre/">Support</a></span></li>
+    </ul>
+
+    <h3>英検® 瞬間英作文</h3>
+    <ul class="apps">
+      <li><span class="name">英検®1級 瞬間英作文</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.eiken1eisakubun">Google Play</a><a href="https://masayukisuda.github.io/eiken1eisakubun/">Support</a></span></li>
+      <li><span class="name">英検®準1級 瞬間英作文</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.eikenpre1eisakubun">Google Play</a><a href="https://masayukisuda.github.io/eikenpre1eisakubun/">Support</a></span></li>
+      <li><span class="name">英検®2級 瞬間英作文</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.eiken2eisakubun">Google Play</a><a href="https://masayukisuda.github.io/eiken2eisakubun/">Support</a></span></li>
+      <li><span class="name">英検®準2級 瞬間英作文</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.eikenpre2eisakubun">Google Play</a><a href="https://masayukisuda.github.io/eikenpre2eisakubun/">Support</a></span></li>
+      <li><span class="name">英検®3級 瞬間英作文</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.theoriatec.eiken3eisakubun">Google Play</a><a href="https://masayukisuda.github.io/eiken3eisakubun/">Support</a></span></li>
+    </ul>
+
+    <h3>TOEIC® / TOEFL®</h3>
+    <ul class="apps">
+      <li><span class="name">TOEIC® 英単語マスター 5000</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.englishwordsfortoeic">Google Play</a><a href="https://masayukisuda.github.io/englishwordfortoeic/">Support</a></span></li>
+      <li><span class="name">TOEIC® 900点突破！英単語アプリ</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.englishwordsfortoeic900">Google Play</a><a href="https://masayukisuda.github.io/englishwordfortoeic900/">Support</a></span></li>
+      <li><span class="name">TOEIC® 最初の500点突破！英単語アプリ</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.englishwordsfortoeic500">Google Play</a><a href="https://masayukisuda.github.io/englishwordfortoeic500/">Support</a></span></li>
+      <li><span class="name">TOEFL 英単語マスター100点突破！</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.tofle">Google Play</a><a href="https://masayukisuda.github.io/toefl/">Support</a></span></li>
+      <li><span class="name">TOEFL® 瞬間英作文</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.tofleeisakubun">Google Play</a><a href="https://masayukisuda.github.io/academiceisakubun/">Support</a></span></li>
+    </ul>
+
+    <h3>英語学習 / English learning</h3>
+    <ul class="apps">
+      <li><span class="name">瞬間英作文 - 英会話のための英作文・英文法</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.english_composition_flutter">Google Play</a><a href="https://masayukisuda.github.io/englishCompositionFlutter/">Support</a></span></li>
+      <li><span class="name">中学生の英単語チャレンジ</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.englishWordsForHighSchool.english_words_for_junior_high_school">Google Play</a><a href="https://masayukisuda.github.io/englishwordforjuniorhighschool/">Support</a></span></li>
+    </ul>
+
+    <h3>Word games / ことばのパズル</h3>
+    <ul class="apps">
+      <li><span class="name">Endless Crossword</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.endlessCrossword">Google Play</a><a href="https://masayukisuda.github.io/endlesscrossword/">Support</a></span></li>
+      <li><span class="name">Endless Word Fill-In</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.endlessWordFillIn">Google Play</a><a href="https://masayukisuda.github.io/endlesswordfillin/">Support</a></span></li>
+      <li><span class="name">Japanese Word</span><span class="links"><a href="https://play.google.com/store/apps/details?id=com.daasuu.japanesewordforenglish">Google Play</a><a href="https://masayukisuda.github.io/japanesewordforenglish/">Support</a></span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>About / 事業者情報</h2>
+    <dl>
+      <dt>Business name / 屋号</dt><dd>daasuu（ダースー）</dd>
+      <dt>Business / 事業内容</dt><dd>Development and publishing of mobile apps<br>スマートフォンアプリの企画・開発・配信</dd>
+      <dt>Location / 所在地</dt><dd>Tokyo, Japan / 東京都</dd>
+      <dt>Contact / お問い合わせ</dt><dd><a href="mailto:support@daasuu.com">support@daasuu.com</a></dd>
+    </dl>
+  </section>
+
+  <footer>© daasuu</footer>
+</main>
+</body>
+</html>
